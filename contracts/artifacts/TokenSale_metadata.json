@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "purchase",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokenSale.sol": "TokenSale"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TokenSale.sol": {
+			"keccak256": "0xd6f7a645b40e1704236afc6f9aabd8c6fb95fcdf9d6bfa7de4ddf5aebf639c3b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://027a4210d10e4a819110ca63d6fb27fe40f7c5474b7be5d1cfb0e790785d6c7b",
+				"dweb:/ipfs/QmRzZSJ4qDnUJWZubX48BkFHT942XzeRKERy3egzk6yYbR"
+			]
+		}
+	},
+	"version": 1
+}
